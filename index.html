@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AtCoder Junior Leagueへの誘い</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    h2, h3 {
+      color: #333;
+    }
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>AtCoder Junior League Summerへの誘い</h2>
+    <a href="https://atcoder.jp/contests/ajl2025summer">
+      <img 
+      src="img/AJLSummerLogo2025.png"
+      alt="AtCoder Junior League Summer Logo" 
+      style="display: block; margin: 0px auto; width:100%; max-width:600px; height:auto; border-radius:8px;"
+      />
+    </a>
+    <h3>AtCoderとは？</h3>
+    <p>AtCoderは、オンラインでプログラミングコンテストを開催するプラットフォームです。多くのプログラマーが参加し、アルゴリズムやコーディングのスキルを競い合います。競技プログラミングです。</p>
+    <h3>AtCoder Junior Leagueとは？</h3>
+    <p>AtCoder Junior Leagueは、高校生向けのコンテストです。初心者でも参加しやすく、プログラミングの楽しさを体験できるイベントとなっています。</p>
+    <h3>初心者でも大丈夫...？</h3>
+    <p>AtCoderではさまざまな学習資料が提供されています。どーせ情報でPythonをやるんだから大丈夫です。無駄にはなりません。</p>
+    <ul>
+      <li><a href="https://atcoder.jp/contests/APG4bPython">Python入門 AtCoder Programming Guide for beginners</a></li>
+      <li><a href="https://atcoder.jp/contests/abs">AtCoder Beginners Selection</a></li>
+    </ul>
+    <h3>参加方法</h3>
+    <p>参加方法は簡単です。AtCoderのアカウントを作成し、コンテストにエントリーするだけです。</p>
+    <button id="AtCoderButton" style="display: block; margin: 10px auto;">AtCoderに登録する！</button>
+    <button id="JLeagueButton" style="display: block; margin: 10px auto;">Junior Leagueに登録する！</button>
+    <script>
+      document.getElementById('AtCoderButton').addEventListener('click', () => {
+        window.location.href = 'https://atcoder.jp/register?continue=https%3A%2F%2Fatcoder.jp%2Fcontests%2Fajl2025summer&lang=ja';
+      });
+      document.getElementById('JLeagueButton').addEventListener('click', () => {
+        window.location.href = 'https://atcoder.jp/contests/ajl2025summer';
+      });
+    </script>
+  </div>
+</body>
+</html>
